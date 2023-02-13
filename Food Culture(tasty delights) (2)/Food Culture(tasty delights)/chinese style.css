@@ -1,0 +1,458 @@
+:root{
+     --clr-neutral-900: hsl(207,19%,9%);
+     --clr-nutral-100: hsl(0,0%,100%);
+     --clr-accent-400: hsl(40, 72%, 60%);
+}
+
+
+::before,
+::after{
+    box-sizing:border-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    background:rgba(244, 235, 213, 0.763);
+    font-family: sans-serif;
+    padding-right: 5em;
+}
+.firstRow{display: flex; 
+    flex-direction: row;
+     justify-content: space-between; 
+     border-style: none; 
+     padding: 100px;
+     margin-left: 50px;
+     float: left;
+
+}
+
+.secRow{display: flex; 
+    flex-direction: row;
+     justify-content: space-between; 
+     border-style: none; 
+     padding: 100px;
+     margin-left: 50px;
+     float: left;
+     margin-top: -100px;
+
+}
+.card1{
+    color: var(--clr-nutral-100);
+    background-image: url(./wouton\ soup.jpg);
+    background-size: cover;
+    padding: 9rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    
+
+    transition: transform 500ms ease;
+}
+.card1:hover {
+     transform: scale(1.05);
+}
+.card1-content{
+    --padding:3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% / 0),
+        rgb(94, 108, 153) 10%
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(15%);
+}
+.card1-title{
+    position: relative;
+    width: max-content;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+
+    
+}
+
+.card1-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom:0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform:scaleX(0) ;
+    transform-origin: left;
+    transition: left;
+
+    
+}
+   .card1:hover .card1-title::after {
+    transform: scaleX(1);
+   }
+   .card1-body {
+    color: rgb(255 255 255 / 0.85);
+   }
+.button{
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5rem 1.25em;
+    border-radius: 0.25em;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--clr-nutral-100);
+}
+
+.card2{
+    color: var(--clr-nutral-100);
+    background-image: url(./dumplings.jpg);
+    background-size: cover;
+    padding: 9rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    
+
+    transition: transform 500ms ease;
+}
+.card2:hover {
+     transform: scale(1.05);
+}
+.card2-content{
+    --padding:3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% / 0),
+        rgb(94, 108, 153) 10%
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(15%);
+}
+.card2-title{
+    position: relative;
+    width: max-content;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+
+    
+}
+
+.card2-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom:0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform:scaleX(0) ;
+    transform-origin: left;
+    transition: left;
+
+    
+}
+   .card2:hover .card2-title::after {
+    transform: scaleX(1);
+   }
+   .card2-body {
+    color: rgb(255 255 255 / 0.85);
+   }
+.button{
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5rem 1.25em;
+    border-radius: 0.25em;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--clr-nutral-100);
+}
+
+.card3{
+    color: var(--clr-nutral-100);
+    background-image: url(./chowmein2.jpg);
+    background-size: cover;
+    padding: 9rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    
+
+    transition: transform 500ms ease;
+}
+.card3:hover {
+     transform: scale(1.05);
+}
+.card3-content{
+    --padding:3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% / 0),
+        rgb(94, 108, 153) 10%
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(15%);
+}
+.card3-title{
+    position: relative;
+    width: max-content;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 7px 10px rgba(97, 8, 8, 0.5);       
+
+}
+
+.card3-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom:0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform:scaleX(0) ;
+    transform-origin: left;
+    transition: left;
+
+    
+}
+   .card3:hover .card3-title::after {
+    transform: scaleX(1);
+   }
+   .card3-body {
+    color: rgb(255 255 255 / 0.85);
+   }
+.button{
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5rem 1.25em;
+    border-radius: 0.25em;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--clr-nutral-100);
+}
+
+.card4{
+    color: var(--clr-nutral-100);
+    background-image: url(./Ma\ Po\ Tofu.jpg);
+    background-size: cover;
+    padding: 9rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    
+ 
+    transition: transform 500ms ease;
+ }
+ .card4:hover {
+     transform: scale(1.05);
+ }
+ .card4-content{
+    --padding:3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% / 0),
+        rgb(94, 108, 153) 10%
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(15%);
+ }
+ .card4-title{
+    position: relative;
+    width: max-content;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+
+ }
+ 
+ .card4-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom:0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform:scaleX(0) ;
+    transform-origin: left;
+    transition: left;
+ 
+    
+ }
+   .card4:hover .card4-title::after {
+    transform: scaleX(1);
+   }
+   .card4-body {
+    color: rgb(255 255 255 / 0.85);
+   }
+ .button{
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5rem 1.25em;
+    border-radius: 0.25em;
+ }
+ .button:hover,
+ .button:focus{
+    background-color: var(--clr-nutral-100);
+ }
+
+ .card5{
+    color: var(--clr-nutral-100);
+    background-image: url(./Kung\ Pao\ Chicken..jpg);
+    background-size: cover;
+    padding: 9rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    
+ 
+    transition: transform 500ms ease;
+ }
+ .card5:hover {
+     transform: scale(1.05);
+ }
+ .card5-content{
+    --padding:3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% / 0),
+        rgb(94, 108, 153) 10%
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(15%);
+ }
+ .card5-title{
+    position: relative;
+    width: max-content;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+
+ }
+ 
+ .card5-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom:0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform:scaleX(0) ;
+    transform-origin: left;
+    transition: left;
+ 
+    
+ }
+   .card5:hover .card5-title::after {
+    transform: scaleX(1);
+   }
+   .card5-body {
+    color: rgb(255 255 255 / 0.85);
+   }
+ .button{
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5rem 1.25em;
+    border-radius: 0.25em;
+ }
+ .button:hover,
+ .button:focus{
+    background-color: var(--clr-nutral-100);
+ }
+
+ .card6{
+    color: var(--clr-nutral-100);
+    background-image: url(./peking\ duck.jpg);
+    background-size: cover;
+    padding: 9rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    
+ 
+    transition: transform 500ms ease;
+ }
+ .card6:hover {
+     transform: scale(1.05);
+ }
+ .card6-content{
+    --padding:3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% / 0),
+        rgb(94, 108, 153) 10%
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(15%);
+ }
+ .card6-title{
+    position: relative;
+    width: max-content;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+
+ }
+ 
+ .card6-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom:0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform:scaleX(0) ;
+    transform-origin: left;
+    transition: left;
+ 
+    
+ }
+   .card6:hover .card6-title::after {
+    transform: scaleX(1);
+   }
+   .card6-body {
+    color: rgb(255 255 255 / 0.85);
+   }
+ .button{
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-accent-400);
+    padding: 0.5rem 1.25em;
+    border-radius: 0.25em;
+ }
+ .button:hover,
+ .button:focus{
+    background-color: var(--clr-nutral-100);
+ }
+  

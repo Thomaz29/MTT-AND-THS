@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Japanese Dishes</title>
+    <style>
+                div.gallery {
+        margin: 20px;
+        border: 1px solid #ccc;
+        float:left;
+        width: 250px;
+}
+
+div.gallery:hover {
+  border: 3px solid rgb(113, 95, 68);
+  border-radius: 15px;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+
+}
+
+div.desc {
+  padding: 15px;
+    text-align:center;
+   
+    background-color: rgba(143, 188, 143, 0.719);
+    border-radius: 15px;}
+    div.firstRow{display: flex; flex-direction: row; justify-content: space-between; border-style: none; }
+    div.secondRow{display: flex; flex-direction: row; justify-content: space-between; border-style: none; }
+
+   div {
+  border:1px solid silver;
+  padding: 8px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+  display: block;
+  width: 350px;
+  height: 350px;border-radius: 15px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-image:linear-gradient(rgba(150, 220, 198, 0.452),rgba(234, 137, 185, 0.425)) ;
+  overflow: hidden;
+  width: 350px;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 15px;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+div.antRow{display: flex; flex-direction: row; justify-content: space-between; border-style: none;}
+#title{text-align: center;}
+
+   
+
+</style>
+</head>
+
+<body>
+
+
+ <div style="background-color:rgba(255, 248, 220, 0.646)">
+  <div id="gotoTop">
+   
+  <div id="title" style="border: none;">
+  <h1><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color: rgba(143, 188, 143, 0.719);font-size:50px;">Asian Food Culture</span></h1>
+  <h1><span style="color: rgba(196, 186, 144, 0.932);font-size:40px;">Japanese Cuisine</span></h1>
+  </div>
+  
+    <div class="firstRow">
+    <div class="gallery">
+        <a target="_blank" href="./sushi1.jpg">
+          <img src="./sushi1.jpg" alt="Sushi" width="300" height="300">
+        </a>
+      <div class="desc">SUSHI<br><br> <span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+        padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$5.8</span>
+      </div>
+    </div>
+    
+    <div class="gallery" >
+        <a target="_blank" href="./takoyaki.jpg" >
+          <img src="./takoyaki.jpg" alt="Takoyaki" width="300" height="300">
+        </a>
+        <div class="desc">TAKOYAKI <br><br><span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+          padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$3.2</span></div>
+        </div>
+        
+    <div class="gallery" >
+            <a target="_blank" href="./sashimi.jpg">
+                <img src="./sashimi.jpg" alt="sashimi" width="300" height="300">
+            </a>
+            <div class="desc">SASHIMI <br><br> <span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+            padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$7.1</span></div>
+          </div>    
+    
+
+    <div class="gallery" >
+        <a target="_blank" href="./onigiri.jpg" >
+            <img src="./onigiri.jpg" alt="onigiri" width="300" height="300">
+        </a>
+        <div class="desc">ONIGIRI <br><br><span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+          padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$3.0</span></div>
+        </div>  
+    </div> 
+    <br><br>
+    <div class="secondRow">
+    <div class="gallery" >
+      <a target="_blank" href="./ramentofix (2).jpg" >
+          <img src="./ramentofix (2).jpg" alt="Ramen" width="300" height="300">
+      </a>
+      <div class="desc">JAPANESE RAMEN <br><br> <span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+        padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$5.1</span></div>
+      </div> 
+
+    <div class="gallery" >
+    <a target="_blank" href="./miso soup.jpg" >
+        <img src="./miso soup.jpg" alt="miso" width="300" height="300">
+    </a>
+    <div class="desc">MISO SOUP <br><br> <span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+      padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$5.1</span></div>
+    </div>   
+
+    <div class="gallery">
+    <a target="_blank" href="./soba noodle soup.jpg" >
+       <img src="./soba noodle soup.jpg" alt="Soba" width="300" height="300">
+    </a>
+    <div class="desc">SOBA NOODLE SOUP <br> <br><span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+      padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$5.3</span></div>
+    </div>
+
+  <div class="gallery" >
+    <a target="_blank" href="./udon.jpg" >
+        <img src="./udon.jpg" alt="udon" width="300" height="300">
+    </a>
+    <div class="desc">UDON NOODLE SOUP <br><br> <span style="background-color: rgb(159, 184, 140); border-radius: 10px;
+      padding-left: 27px; padding-right: 27px;padding-top: 8px;padding-bottom: 8px; ">$5.1</span></div>
+    </div> 
+
+</div>
+<br> <br>
+
+<div class="antRow">
+<div class="container" style="border: none;margin-left: 20px;" >
+  <img src="./preshop1.jpg" alt="A Japanese Shop" class="image">
+  <div class="overlay" style="border: none;">
+    <div class="text">Japanese Food Culture</div>
+  </div>
+</div>
+     <div class="para" style="margin-right: 90px; width: 1000px; border: none;">
+      <h1><span style="color: rgba(143, 188, 143, 0.826);">Traditional Dishes from Japan</span></h1>
+      <ul style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <li><span style=color:darkseagreen;font-size:large >Sushi.</span> <span style="font-style: italic;">A popular dish in Japan, sushi is also well loved in the Western world.</span></li><br>
+        <li><span style=color:darkseagreen;font-size:large >Tempura.</span> <span style="font-style: italic;"> Tempura is commonly made by deep-frying seafood, vegetables,
+           or prawns.</li><br>
+        <li><span style=color:darkseagreen;font-size:large >Sashimi.</span> <span style="font-style: italic;"> A Japanese dish of thinly-sliced raw food, usually fish and seafood.</span></li><br>
+        <li><span style=color:darkseagreen;font-size:large >Miso Soup.</span> <span style="font-style: italic;"> A traditional food that has supported the dietary life of the Japanese people.</span></li><br>
+        <li><span style=color:darkseagreen;font-size:large >Soba and Udon Noodles.</span>  <span style="font-style: italic;">IUdon and soba are typical noodle dishes in Japan.</span></li>
+      </ul>
+     </div> 
+     </div>
+        
+      
+
+    
+
+</div>
+
+    </body>
+</html>

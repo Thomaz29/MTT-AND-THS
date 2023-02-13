@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Dishes</title>
+    <link rel="stylesheet"  href="chinese style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@700&family=Righteous&display=swap" rel="stylesheet">
+
+    <style>
+
+      #title{text-align: center;}
+      .h2{ 
+        font-family:'Oswald', sans-serif;
+
+      }
+  
+       .container {
+       position: relative;
+       width: 50%;
+      }
+
+       .image {
+       display: block;
+       width: 300px;
+       height: 350px;
+       border-radius: 10px;
+      }
+
+       .overlay {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       background-color:#ba8f007a;
+       overflow: hidden;
+       width: 0;
+       height: 35%;
+       transition: .5s ease;
+      }
+
+      .container:hover .overlay {
+       width: 100%;
+      }
+
+      .text {
+       white-space: nowrap; 
+       color: white;
+       font-size: 20px;
+       position: absolute;
+       overflow: hidden;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+      }
+
+      .row1{
+         display: flex; flex-direction: row; justify-content: space-between; 
+         border-style: none; margin-right: 400px;
+      }
+
+
+
+    .container2 {
+      position: relative;
+      width: 50%;
+     }
+
+    .image2 {
+      display: block;
+      width: 300px;
+      height: 350px;
+      border-radius: 10px;
+    }
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  right: 0;
+  background-color: #ba8f007a;
+  overflow: hidden;
+  width: 0;
+  height: 35%;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+  width: 100%;
+  left: 0;
+}
+
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.row2{
+  display: flex; flex-direction: row; justify-content: space-between;
+   border-style: none; margin-left: 400px;
+}
+
+
+body {margin:25px;}
+
+div.polaroid {
+  width: 400px;
+  background-color: rgba(231, 196, 133, 0.674);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 2rem;
+}
+
+div.container3 {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+   .picpara{display: flex; flex-direction: row; justify-content: space-between; border-style: none;}
+   </style>
+</head>
+
+
+<body>
+  <div id="title" style="border: none;">
+    <h1><span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgba(119, 70, 43, 0.945);font-size:50px;">Asian Food Culture</span></h1>
+    <h1><span style="color: rgb(95, 53, 53);font-size:40px;">Chinese Cuisine</span></h1>
+    </div>
+
+
+  <div class="firstRow"> 
+   
+    <div class="card1">
+    <div class="card1-content">
+     <h2 class="card1-title"><span style="color: rgb(255, 255, 250);text-shadow: 0px 7px 10px rgba(36, 34, 34, 0.89);">W o u t o n - S o u p</span></h2>
+     <p class="card1-body">Made from seasoned chicken broth with filled wontons.  </p>
+     <a href="#" class="button"> $4.0</a>
+    </div> 
+   </div>
+
+   <div class="card2">
+    <div class="card2-content">
+     <h2 class="card2-title"><span style="color: rgb(255, 255, 250);text-shadow: 0px 7px 10px rgba(36, 34, 34, 0.89);">D u m p l i n g s</span></h2>
+     <p class="card2-body">It is a small mass of dough cooked by boiling or steaming</p>
+     <a href="#" class="button"> $3.1</a>
+    </div> 
+   </div>
+
+   <div class="card3">
+    <div class="card3-content">
+     <h2 class="card3-title"><span style="color: rgb(255, 255, 250);text-shadow: 0px 7px 10px rgba(36, 34, 34, 0.89);">C h o w - m e i n</span></h2>
+     <p class="card3-body">it is a stir-fried dish consisting of noodles, meat. </p>
+     <a href="#" class="button"> $3.7</a>
+    </div> 
+   </div>
+
+   </div>
+
+   <div class="secRow">
+    <div class="card4">
+     <div class="card4-content">
+      <h2 class="card4-title"><span style="color: rgb(255, 255, 250);text-shadow: 0px 7px 10px rgba(36, 34, 34, 0.89);">M a P o T o f u</span></h2>
+      <p class="card4-body">A Chinese Sichuan dish that is made with soft tofu in a rich and spicy sauce.  </p>
+      <a href="#" class="button"> $3.2</a>
+     </div> 
+    </div>
+      
+    <div class="card5">
+      <div class="card5-content">
+       <h2 class="card5-title"><span style="color: rgb(255, 255, 250);text-shadow: 0px 7px 10px rgba(36, 34, 34, 0.89);">KungPao C h i c k e n</span></h2>
+       <p class="card5-body"> Chinese-style stir-fried chicken cubes with dried chili peppers. </p>
+       <a href="#" class="button"> $4.1</a>
+      </div> 
+     </div>
+  
+    <div class="card6">
+     <div class="card6-content">
+       <h2 class="card6-title"><span style="color: rgb(255, 255, 250);text-shadow: 0px 7px 10px rgba(36, 34, 34, 0.89);">P e k i n g  D u c k</span></h2>
+       <p class="card6-body">A dish from Beijing that has been prepared since the Imperial era.  </p>
+       <a href="#" class="button"> $7.2</a>
+     </div> 
+    </div>
+  
+   </div>
+    
+   <div class="row1">
+     <div class="container">
+      <img src="./mooncake.jpg" alt="Mooncake" class="image">
+      <div class="overlay">
+        <div class="text"><span style="font-style: italic;">MOONCAKE <br> $1.2</span></div>
+      </div>
+     </div>
+
+    <div class="container">
+      <img src="./sesame balls.jpg" alt="Sesame Balls" class="image">
+      <div class="overlay">
+        <div class="text"><span style="font-style: italic;">SESAME BALLS <br> $1.0</span></div>
+      </div>
+    </div>
+
+  </div>
+    <br> <br>
+  <div class="row2">
+     <div class="container2">
+      <img src="./steamed buns.jpg" alt="steamed buns" class="image2">
+      <div class="overlay2">
+        <div class="text2"><span style="font-style: italic;">STEAMED BUNS <br>$1.2</span></div>
+      </div>
+     </div>
+     
+     <div class="container2">
+      <img src="./dimsum.jpg" alt="Dimsum" class="image2">
+      <div class="overlay2">
+        <div class="text2"><span style="font-style: italic;">DIM SUM <br> $1.4</span></div>
+      </div>
+     </div>
+  </div> 
+  <br> <br>
+     
+  <div class="head"><span style=" font-size: 50px; font-style: italic;">Special Menu</span></div>
+  
+  <div class="picpara" style="padding: 30px;">
+    <div class="polaroid" style="margin-left: 30px;">
+     <img src="./hotpot3.jpg" alt="Hot Pot" style="width:400px; height: 450px;" >
+      <div class="container3">
+        <p>$9.2 For One Person!</p>
+      </div>
+    </div>
+  
+    <div class="para" style="margin-left: 90px; width: 600px; border: none;"> 
+      <h2>Hot Pot</h2>
+      <p>Hot Pot is an interactive meal in which diners sit around a simmering pot of soup at the 
+         center of the table with various raw ingredients
+      </p>
+      <h3>Main Ingredients</h3>
+      <ul>
+        <li>Meat</li>
+        <li>SeaFood</li>
+        <li>Vegetables</li>
+        <li>Tofu</li>
+        <li>Starches</li>
+      </ul>
+    </div>
+  </div>
+  
+  
+    
+</body>
+</html>
